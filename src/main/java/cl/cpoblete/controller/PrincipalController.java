@@ -6,14 +6,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/principalUsuario")
+@RequestMapping ("/principal")
 
-public class PrincipalUserController {
+public class PrincipalController {
 	
-	@GetMapping
-	public String principal(ModelMap mapa) {
+	@GetMapping ("/principalUsuario")
+	public String principalUsuario (ModelMap mapa) {
 		String paginaInicio = "principal/principalUsuario";
 		return paginaInicio;
 
 	}
+	
+	@GetMapping ("/principalAdmin")
+	public String principalAdmin (ModelMap mapa) {
+		String paginaInit = "principal/principalAdmin";
+		return paginaInit;
+
+	}
+	
 }

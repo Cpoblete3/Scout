@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+  
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,9 +34,9 @@ crossorigin="anonymous">
   </div>
   <div class="form-group form-check">
   </div>
-  <a type="submit" class="btn btn-primary" href="principalUsuario">Ingreso Usuario</a>
+  <a type="submit" class="btn btn-primary" href="principal/principalUsuario">Ingreso Usuario</a>
   
-  <a type="submit" class="btn btn-primary" href="principalAdmin">Ingreso Administrador</a>
+  <a type="submit" class="btn btn-primary" href="principal/principalAdmin">Ingreso Administrador</a>
 </form>
     
   </div>
